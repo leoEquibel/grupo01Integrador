@@ -1,0 +1,39 @@
+Articulos
+Scratch es un lenguaje visual de programación centrado en fomentar la creatividad y el pensamiento lógico. Aunque cualquier edad es buena para aprenderlo, los niños/as son destinatarios ideales para Scratch. Enseñándoles a usar Scratch estamos ayudándoles a afrontar y resolver situaciones y problemas de todo tipo de una manera lógica y estructurada.
+Cuando empezamos a enseñar a un niño a programar en Scratch el objetivo principal debería ser que vaya cogiendo soltura y asimilando conceptos, ideas básicas y flujos de trabajo sobre programación y pensamiento computacional de manera divertida y atrayente, para que se genere un interés y base técnica que le anime a seguir.
+Scratch es un lenguaje visual desarrollado por el MIT y que, basándose en bloques que se unen a modo de puzzle, supone un modo sencillo de aprender sobre programación. Pero esa sencillez de la interfaz o su colorido no debe ocultar que estamos ante un lenguaje también muy potente y que admite grandes proyectos que se pueden alcanzar de manera gradual.
+Scratch es un lenguaje que propicia desarrollar la creatividad y el pensamiento lógico de los niños/as de manera sencilla y divertida
+
+
+Beneficios de aprender a programar con niños
+* Aprender a programar mejora el razonamiento, facilita el aprendizaje de las matemáticas y la capacidad de resolver problemas. Incluso ayuda en las asignaturas relacionadas con las lenguas.
+* Favorece la creatividad. Pensar en un proyecto, descubrir cómo llevarlo a cabo y estructurarlo para que funcione lleva consigo desarrollar la imaginación.
+* Aumenta la confianza y la autoestima. Ver como (poco a poco) aquello en lo que trabajas va dando resultados y es por tu esfuerzo y trabajo aumenta la confianza en uno mismo.
+* Es una actividad que, por su naturaleza, obliga a fijarse y a mantener la concentración. El desarrollo de esta será de gran ayuda para su futuro.
+* Al tener que desarrollar y estructurar sus ideas de forma que estas se puedan desarrollar competencias como la lógica. Estas competencias y habilidades que desarrollará le ayudarán también en lo personal.
+* Fomenta el trabajo en equipo. Cuando no eres capaz de realizarlo por tu cuenta, buscas ayuda en los demás y formando grupos que se apoyan entre sí.
+
+
+En una sociedad cada vez más dependiente de lo digital, el desarrollo de tecnologías debería convertirse en uno de los pilares fundamentales de nuestra alfabetización, al igual que la gramática o las matemáticas. Por eso, el número de padres que buscan maneras de aprender programación para niños va en aumento.
+La razón es evidente. Apostar por la programación es hacerlo por un sector con un futuro prácticamente asegurado y, como la mayoría de los campos, nunca es demasiado pronto para empezar a empaparse de ello.
+Además, escribir código no es la única habilidad que adquieren los que se adentran en el mundo del desarrollo a una edad temprana. También es una excelente forma de fomentar el pensamiento lógico y computacional para la resolución de problemas y la creatividad, aptitudes que pueden ser bastante útiles posteriormente para afrontar diversos obstáculos de la vida académica y laboral.
+Por todas estas razones, muchas familias buscan la mejor manera de aprender programación para niños. Tanto si es tu caso como si no, pero partes igualmente desde cero y te gustaría iniciarte en el mundo de la programación, a continuación te damos algunas pistas para lograrlo.
+
+Nosotros
+Aprendamos a cambiar el mundo …cambiándolo
+Progracademy es una empresa social (For Profit Social Enterprise) dedicada al desarrollo de las capacidades digitales de niños y jóvenes en edad escolar provenientes de todos los entornos socioeconómicos.
+Como parte de este objetivo general, Progracademy busca disminuir la brecha digital que afecta especialmente a niños y jóvenes de entornos no favorecidos.
+Para lograrlo, Progracademy cuenta con un brazo comercial y un brazo sin fines de lucro –Asociación Progracademy-. Ambos brazos trabajan en forma conjunta en un modelo unificado e independiente.
+Es así como marcamos la diferencia en el sector del desarrollo de competencias digitales online.
+Nuestra filosofía educativa
+Progracademy busca desarrollar tres atributos claves en sus estudiantes:
+
+Creadores computacionales
+No basta con aprender a programar, hay que crear los hábitos que permitan ser creadores. En Progracademy fomentamos los hábitos de Design Thinking y pensamiento computacional.
+
+Líderes colaborativos
+El éxito en el Siglo XXI está cada vez más basado en desarrollar la capacidad de colaborar a la vez de liderar. Por ello Progracademy trabaja activamente en desarrollar los hábitos de resolución colaborativa de problemas y agencia de cambio.
+
+Aprendices permanentes
+Este es el atributo más asociado a la genialidad y un atributo fundamental para progresar en el cambiante Siglo XXI. Progracademy desarrolla los hábitos de la práctica deliberada y la mentalidad de crecimiento.
+
