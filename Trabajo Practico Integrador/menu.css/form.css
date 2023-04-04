@@ -12,6 +12,7 @@
     display: grid;
     margin-top: 10px;
     font-weight: bold;
+    margin-top: 20px;
 }
 
 .input-padrón {
@@ -27,8 +28,37 @@
 }
 
 .form-contact .button .enviar {
-    padding: 1 rem 2rem ;
-    background-color: #48A3A6;
-    border-radius: 5px;
-    color: white;
+    border-radius: 8px;
+	background-color: #ec6e5a;
+	display: block;
+	color: #FFF;
+	border: none;
+	height: 50px;
+	font-size: .8em;
+	outline: none;
+    width: 100% ;
+    
 }
+
+.enviar{
+    padding: 0.3rem;
+    margin-top: 30px;
+    background: #8def47;
+    border-radius: 5px;
+}
+
+table{
+    margin: 40px 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+

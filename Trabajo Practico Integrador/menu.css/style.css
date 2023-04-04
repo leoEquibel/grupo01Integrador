@@ -3,6 +3,10 @@ body {
 	font-family: 'Open Sans',Arial,sans-serif;
 }
 
+.banner {
+	width: 100%;
+}
+
 .container {
 	width: 94%;
 	margin: 0 auto;
@@ -44,10 +48,71 @@ body {
 .subtitulo {
 	font-weight: bold;
 	font-size: 32px;
-	margin-bottom: 10px;
+	padding: 20px;
 	text-align: center;
+
 }
 
+.contenido-articulo{
+	margin-bottom: 25px;
+}
+
+/* Seccion de estilos de Titores*/
+.container_cars {
+    padding-top: 40px;
+    background-color: #d9ebf0;   
+}
+
+.container_cars .cars{
+    text-align: center;
+}
+
+.cars .title {
+    font-size: 35px;
+    color: rgb(17, 17, 17);
+    margin-bottom: 16px;
+}
+
+.cars .subtitle {
+    font-size: 25px;
+    color:  rgb(17, 17, 17);
+    margin-bottom: 16px;
+}
+
+.cars_contenido {
+    text-align: center;   
+}
+
+.car {
+    background: #fdfdfd;
+    display:inline-block;
+    margin: 0 10px 20px 0;
+    padding: 18px;
+    width: 250px; 
+    border-radius: 10px; 
+    vertical-align: top;  
+}
+
+.cars_contenido .car .tutor_imagen img {
+   border-radius: 50%;
+}
+
+.cars_contenido .car .tutor_imagen .cars_nombre {
+    margin-top: 10px;
+}
+
+.cars_contenido .car .tutor_imagen .cars_cargo {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.cars_contenido .car .cars_descripcion {
+    margin-top: 10px;
+}
+
+.container-herramientas{
+	background-color: #5EC6F3;
+}
 
 .contenidoPrincipal-cursos-link {
 	height: 100px;
@@ -97,8 +162,9 @@ body {
 	text-align: center;
 	margin: 1%;
 	transition: .3s;
-	box-shadow: 2px 2px 2px #CCC;
+	box-shadow: 2px 2px 2px #cccccc;
 	position: relative;
+	border-radius: 5px;
 }
 
 .contenidoPrincipal-herramientas-link a {
@@ -126,7 +192,7 @@ body {
 }
 
 .contenidoPrincipal-herramientas-link:nth-child(even) a:before {
-	background: url(../img/background1.svg) no-repeat;	
+	background: url(../imagenes/vscode_icon-300x169.png) no-repeat;	
 }
 
 .contenidoPrincipal-herramientas-link:nth-child(odd) a:before {
@@ -173,43 +239,11 @@ body {
 .rodapePrincipal-patrocinadores {
 	margin-top: 30px;
 	background: #F2F5F7;
-	padding: 20px 0;
-}
-
-.rodapePrincipal-contatoForm {
-	margin-top: 20px;
+	padding:20px;
 	text-align: center;
-}
+    font-size: 13px;
+	width: 100%;
 
-.rodapePrincipal-contatoForm label[for=email-contato] {
-	font-weight: bold;
-	font-size: 14px;
-	color: #000;
-	margin-bottom: 5px;
-	display: block;
-}
-
-.rodapePrincipal-contatoForm-emailInput {
-	border-top-left-radius: 5px;
-	border-bottom-left-radius: 5px;
-	padding: 10px;
-}
-
-.rodapePrincipal-contatoForm-submit {
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
-	background-color: #4DBA7A;
-	color: #FFF;
-	cursor: pointer;
-	
-}
-
-.rodapePrincipal-contatoForm-submit,
-.rodapePrincipal-contatoForm-emailInput {
-	outline: 0;
-	border: 1px solid #4DBA7A;
-	box-sizing: border-box;
-	font-size: 16px;
 }
 
 .videoSobre {
