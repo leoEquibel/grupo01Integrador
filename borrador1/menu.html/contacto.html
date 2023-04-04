@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+  <html>
+      <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width">    
+        <title>Contacto - ProAr</title>
+        <link rel="stylesheet" href="../menu.css/reset.css">
+        <link rel="stylesheet" href="../menu.css/contacto.css">
+        <link rel="stylesheet" href="../menu.css/style.css">
+        <link rel="stylesheet" href="../menu.css/form.css">
+        <link rel="stylesheet" href="../menu.css/flexbox.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../imagenes/favicon-32x32.png">
+      </head>
+      <body>
+        <header class="headerPrincipal">
+            <div class="container">        
+                <h1 class="headerPrincipal-titulo">
+                    <a href="#">ProAr</a>	
+                </h1>
+                <nav class="headerPrincipal-nav">
+                <a class="headerPrincipal-nav-link" href="index.html">Home</a>
+				<a class="headerPrincipal-nav-link" href="Cursos.html">Cursos</a>
+				<a class="headerPrincipal-nav-link" href="index.html">Que es ProAr</a>
+				<a class="headerPrincipal-nav-link" href="Herramientas.html">Herramientas</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+           <form class="form-contact">
+            <div class="campo">
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input type="text" id="nombreapellido" class="input-padron" required>
+           </div>
+           <div class="campo">
+            <label for="correoelectronico">Correo Electrónico</label>
+            <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+           </div>
+           <div class="campo">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" class="input-padron" required placeholder="(351)331 0815">
+           </div>
+           <div class="campo">
+            <label for="mensaje">Mensaje</label>
+            <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+           </div>
+           <div class="campo">
+            <fieldset>
+                    <legend>¿Cómo le gustaría que lo contactemos?</legend>
+
+                    <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                    
+                    <label for="radio-telefono"><input type="radio"  name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
+                   
+                    <label for="radio-whatsapp"><input type="radio"  name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+
+            </fieldset>
+           </div>
+           <div class="campo">
+            <fieldset>
+                <legend>¿En que horario desea ser atendido?</legend>
+
+                <select>
+                     <option value="">Mañana</option>
+                     <option value="">Tarde</option>
+                </select>
+            </fieldset>
+           </div>
+           <div class="campo"> 
+            <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibír novedades de ProAr?</label>
+           </div>
+            <input type="submit" value="Enviar formulario" class="enviar">
+
+           </form>
+           
+           <table>
+               <thead>
+                    <tr>
+                        <th>Día</th>
+                        <th>Horario</th>
+                    </tr>
+               </thead>
+               <tbody>
+                    <tr>
+                        <td>Martes</td>
+                        <td>08hs - 16hs</td>
+                    </tr>
+                    <tr>
+                        <td>Miercoles</td>
+                        <td>08hs - 16hs</td>
+                    </tr>
+                    <tr>
+                        <td>Jueves</td>
+                        <td>08hs - 16 hs</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>08hs - 16 hs</td>
+                    </tr>
+                    
+               </tbody>          
+           </table>
+        </main>
+        <!--hay que centrar el footer en el medio de la página cuidando no romper lo demás footer-->
+        <footer>
+            <img src="../imagenes/favicon-32x32.png" alt="logo de ProAr">
+            <p class="copyright">&copy Copyright ProAr - 2023</p>
+          </footer>
+        </body>
+    </html>

@@ -1,0 +1,64 @@
+.form-contact {
+    padding: 30px;
+}
+
+.form-contact .títle {
+    text-align:center;
+    font-size: 25px;
+    color: #EF7247;
+}
+
+.form-contact .campo {
+    display: grid;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.input-padrón {
+    border: 2px solid;
+    border: 5px;
+    box-shadow: 1px 4px 10px ;
+    padding : 4px;
+}
+
+.form-contact .button {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.form-contact .button .enviar {
+    border-radius: 8px;
+	background-color: #ec6e5a;
+	display: block;
+	color: #FFF;
+	border: none;
+	height: 50px;
+	font-size: .8em;
+	outline: none;
+    width: 100% ;
+    
+}
+
+.enviar{
+    padding: 0.3rem;
+    margin-top: 30px;
+    background: #8def47;
+    border-radius: 5px;
+}
+
+table{
+    margin: 40px 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
