@@ -34,7 +34,7 @@ form label, form legend{
 }
 
 .enviar:hover{
-    background: darkorange;
+    background: blue;
     transform: scale(1.2);
 
 }
@@ -53,3 +53,25 @@ td, th{
     border: 1px solid #000000;
     padding: 8px 15px;
 }
+
+.result {
+
+    width: 400px;
+    height: 500px;
+    left: 600px;
+    top: 80px;
+    margin: 30px;
+    
+}
+    
+.result .text-result {
+         padding: 100px;
+         border: 2px solid #0A3871;
+         border-radius: 15px;
+         background-color: white;
+         font-family: 'Inter';
+         color: #343A40;
+         font-weight: 700;
+            
+}
+
