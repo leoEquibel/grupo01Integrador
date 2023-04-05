@@ -1,3 +1,4 @@
 
-let Home;
-Home= document.addEventListener("click",()=>  alert ("Gracias,ArgentinaPrograma"));
+let home;
+home= document.getElementById("home")
+home.addEventListener("click",()=>  alert ("Gracias,ArgentinaPrograma"));
