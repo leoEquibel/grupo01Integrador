@@ -3,33 +3,31 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<title>ProAr | Cursos online</title>
 	<link rel="stylesheet" href="../menu.css/reset.css">
 	<link rel="stylesheet" href="../menu.css/flexbox.css">
 	<link rel="stylesheet" href="../menu.css/style.css">
 	<link rel="stylesheet" href="../menu.css/form.css">
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../imagenes/favicon-32x32.png">
-	<title>ProAr | Cursos online</title>
 </head>
 <body>
 	<header class="headerPrincipal">
 		<div class="container">        
 			<h1 class="headerPrincipal-titulo">
+				<img src="../imagenes/favicon-32x32.png" alt="logo de ProAr">
 				<a href="#">ProAr</a>	
 			</h1>
 			<!--Imagen extraida de pakapaka, si quieren modificarla a su gusto-->
 			<figure>
                 <img src="../imagenes/679648ce17eb66f45a5b9655e7f74ee2.jpg" width="100" alt="imagen de zamba pakapaka">
-			    <figcaption>zamba y niña</figcaption>
 			</figure>
 			
 			<nav class="headerPrincipal-nav">
-				<a class="headerPrincipal-nav-link" id="home" href="index.html">Home</a>
+				<a class="headerPrincipal-nav-link" href="index.html">Home</a>
 				<a class="headerPrincipal-nav-link" href="Cursos.html">Cursos</a>
-				<a class="headerPrincipal-nav-link" href="index.html">Que es ProAr</a>
-				<a class="headerPrincipal-nav-link" href="index.html">Herramientas</a>
+				<a class="headerPrincipal-nav-link" href="#nosotros">Que es ProAr</a>
+				<a class="headerPrincipal-nav-link" href="#container-herramientas">Herramientas</a>
 				<a class="headerPrincipal-nav-link" href="Contacto.html">Contacto</a>
 			</nav>
 		</div>
@@ -39,12 +37,12 @@
 <!-- Dalila te animas a darle diseño a estos textos, agregando clases o -->
 <!--colocando en negrita por ejemplo cada vez que se repite la palabra de la pagina a su gusto-->
 	<main class="contenidoPrincipal-nosotros">
-		<div class="container">
+		<div id="nosotros" class="container">
 			<h2 class="subtitulo">Quienes somos</h2>
          <article class="contenido-articulo">
-             <p><em>"A cambiar el mundo cambiándolo"</em></p>
+             <p class="objetivo"><em>"A cambiar el mundo cambiándolo"</em></p>
 		 </article>
-		 <article class="contenido-articulo">
+		 <article id="nosotros" class="contenido-articulo">
 			 <p>ProAr es una cooperativa social dedicada al desarrollo de las capacidades digitales de niños y jovenes en edad escolar provenientes de todos los entornos socioeconómicos.</p>
 				Como parte de este objetivo general,ProAr busca disminuir la brecha digital que afecta especialmente a niños y jovenes de entornos no favorecidos.
 				Para lograrlo,ProAr cuenta con un brazo comercial y un brazo sin fines de lucro. Ambos brazos trabajan en forma conjunta en un modelo unificado e independiente.
@@ -52,13 +50,13 @@
 		 </article>
 		 <article class="contenido-articulo">
             ProAr busca desarrollar tres atributos claves en sus estudiantes:</p>
-            <p>Creadores computacionales</p>
+            <p class="objetivo">Creadores computacionales</p>
 				<p>No basta con aprender a programar, hay que crear los hábitos que permitan ser creadores. En ProAr fomentamos el pensamiento computacional.</p>
 				
-			<p>Líderes colaborativos</p>
+			<p class="objetivo">Líderes colaborativos</p>
 				<p>El éxito en el Siglo XXI esta cada vez mas basado en desarrollar la capacidad de colaborar a la vez de líderar. Por ello ProAr trabaja actívamente en desarrollar los hábitos de resolución colaborativa de problemas y agencia de cambio.</p>
 				
-			<p>Aprendices permanentes</p>
+			<p class="objetivo">Aprendices permanentes</p>
 				<p>Este es el atributo mas asociado a la genialidad y un atributo fundamental para progresar en el cambiante Siglo XXI.ProAr desarrolla los hábitos de la práctica deliberada y la mentalidad de crecimiento.</p>
 		 </article>
 		</div>
@@ -128,9 +126,9 @@
 			<h2 class="subtitulo">Herramientas</h2>
 			<nav>
 				<ul class="contenidoPrincipal-herramientas">
-					<li class="contenidoPrincipal-herramientas-link"><a href="https://code.visualstudio.com"target="_blank"rel="noopener noreferrer">Visual Studio Code</a></li>
-					<li class="contenidoPrincipal-herramientas-link"><a href="https://www.figma.com/"target="_blank"rel="noopener noreferrer">figma</a></li>
-					<li class="contenidoPrincipal-herramientas-link"><a href="https://www.sublimetext.com/"target="_blank"rel="noopener noreferrer">Sublime text 3</a></li>
+					<li class="contenidoPrincipal-herramientas-link"><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+					<li class="contenidoPrincipal-herramientas-link"><a href="https://www.figma.com/">figma</a></li>
+					<li class="contenidoPrincipal-herramientas-link"><a href="https://www.sublimetext.com/">Sublime text 3</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -139,7 +137,7 @@
 <!--directamente de youtube, en una clase con el profe nos enseño a ponerlo-->
 		<section class="videoSobre">
 			<div class="container">
-				<iframe class="videoSobre-video" width="560" height="315" src="https://www.youtube.com/embed/bIlOsJzBVaY?list=PLh2Y_pKOa4UcF1BYPJR3EIMRi3nWAUxIp" frameborder="0" allowfullscreen></iframe>
+				<iframe class="videoSobre-video" width="560" height="315" src="https://www.youtube.com/embed/2jjOxKX2S2s" title="Programación y Robótica para Nivel Inicial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>"></iframe></iframe>
 				
 				<div class="videoSobre-sobre">
 					<h2 class="videoSobre-sobre-title">Ventajas de ProAr</h2>
@@ -170,42 +168,54 @@
 				<nav class="rodapePrincipal-navMap-list">
 
 					<h4 class="navmap-list-title navmap-list-title-frontend">Lenguajes Frontend</h4>
-					<a class="rodapePrincipal-navMap-link" href="https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox"target="_blank"rel="noopener noreferrer">Flexbox</a>
-					<a class="rodapePrincipal-navMap-link" href="https://www.w3schools.com/css/"target="_blank"rel="noopener noreferrer">CSS</a>
-					<a class="rodapePrincipal-navMap-link" href="https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps"target="_blank"rel="noopener noreferrer">Javascript</a>
+					<a class="rodapePrincipal-navMap-link" href="https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">Flexbox</a>
+					<a class="rodapePrincipal-navMap-link" href="https://www.w3schools.com/css/">CSS</a>
+					<a class="rodapePrincipal-navMap-link" href="https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps">Javascript</a>
 
 					<h4 class="navmap-list-title navmap-list-title-herramientas">Herramientas</h4>
-					<a class="rodapePrincipal-navMap-link" href="https://code.visualstudio.com"target="_blank"rel="noopener noreferrer">Visual Studio Code</a>
-					<a class="rodapePrincipal-navMap-link" href="https://www.figma.com/"target="_blank"rel="noopener noreferrer">Figma</a>
-					<a class="rodapePrincipal-navMap-link" href="https://www.sublimetext.com/"target="_blank"rel="noopener noreferrer">Sublime text</a>
+					<a class="rodapePrincipal-navMap-link" href="https://code.visualstudio.com">Visual Studio Code</a>
+					<a class="rodapePrincipal-navMap-link" href="https://www.figma.com/">Figma</a>
+					<a class="rodapePrincipal-navMap-link" href="https://www.sublimetext.com/">Sublime text</a>
 
 
 					<h4 class="navmap-list-title navmap-list-title-framework">Frameworks</h4>
 					
-					<a class="rodapePrincipal-navMap-link" href="https://getbootstrap.com/"target="_blank"rel="noopener noreferrer">Bootstrap</a>
+					<a class="rodapePrincipal-navMap-link" href="https://getbootstrap.com/">Bootstrap</a>
 
 				</nav>
 			</section>
 
 		</div>
 
-		<section class="rodapePrincipal-patrocinadores">
-			<div class="container">
-				<ul class="rodapePrincipal-patrocinadores-list">
+		<section class="rodapePrincipal-redSocial">
+			<div>
+				<ul class="rodapePrincipal-redSocial-list">
 					<li>
-						<a class="rodapePrincipal-patrocinadores-list-link patrocinadores-list-link" href="#">
-							<img src="../imagenes/favicon-32x32.png" alt="Logo de ProAr">
-							<p class="copyright">&copy Copyright ProAr - 2023</p>
-						</a>
+						<a class="rodapePrincipal-redSocial-list-link-instagram" href="https://www.instagram.com">
+							<img src="../imagenes/instagram-logo-1155105798346ilx9kcc6.png" width="40" alt="Logo de instagram">
+						</un>							
+					</li>
+					<li>
+						<a class="rodapePrincipal-redSocial-list-link-linkedin" href="https://www.linkedin.com/">
+							<img src="../imagenes/97-971470_linkedin-linkedin-social-media-icons-clipart.png" width="40" alt="Logo de linkedin">
+							
+						</un>							
+					</li>
+					<li>
+						<a class="rodapePrincipal-redSocial-list-link-facebook" href="https://www.facebook.com/">	
+							<img src="../imagenes/facebook-hd-png-free-illustration-icons-symbols-facebook-button-free-image-on-pixabay-842893-640.png" width="40" alt="Logo de facebook">
+						</un>							
 					</li>
 				</ul>
+				<div class="copyright">
+					<img src="../imagenes/favicon-32x32.png" alt="Logo de ProAr">
+					<p>&copy Copyright ProAr - 2023</p>
+				</div>
 					
 			</div>
 		</section>
 	</footer>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-	 integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-	 <script src="../menu.js/index.js"></script>
-
+<script src="../js/index.js"></script>
+<script src="../js/contacto.js"></script>
 </body>
 </html>
