@@ -6,11 +6,11 @@
 .headerPrincipal-nav{
     display: flex;
 }
-.rodapePrincipal-patrocinadores .container{
+.rodapePrincipal-redsocial .container{
     display: flex;
     justify-content:space-between;
 }
-.rodapePrincipal-patrocinadores-list{
+.rodapePrincipal-redsocial-list{
     display: flex;
     align-items: center;
     justify-content:space-around;
@@ -35,7 +35,11 @@
 }
 .contenidoPrincipal-cursos-link{
     display: flex;
-    width: 23%;
+    width: 23%;    
+}
+
+.contenidoPrincipal-cursos-link a {
+    display: flex; 
 }
 
 .contenidoPrincipal-herramientas{
