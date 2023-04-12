@@ -131,6 +131,11 @@ body {
 	box-shadow: 2px 2px 2px #cccccc;
 	position: relative;
 	border-radius: 5px;
+	display: flex; 
+	flex-direction: column; 
+	align-items: center;
+	margin-bottom: 10px;
+	font-size: 16px; 
 }
 
 .contenidoPrincipal-herramientas-link a {
@@ -143,10 +148,13 @@ body {
 	position: absolute;
 	top: 0;
 	left: 0;
-}
+	display: flex;
+    flex-direction: column; 
+	align-items: center;
+}	
 
 .contenidoPrincipal-herramientas-link:hover {
-	box-shadow: 4px 4px 4px #CCC;
+	box-shadow: 4px 4px 4px #ccccccd9;
 }
 
 .contenidoPrincipal-herramientas-link a:before {
@@ -157,13 +165,6 @@ body {
 	margin: 10px auto;
 }
 
-.contenidoPrincipal-herramientas-link:nth-child(even) a:before {
-	background: url(../imagenes/vscode_icon-300x169.png) no-repeat;	
-}
-
-.contenidoPrincipal-herramientas-link:nth-child(odd) a:before {
-	background: url(../img/background2.svg) no-repeat;
-}
 
 /* Seccion de Cursos*/
 .contenidoPrincipal-cursos-link {
@@ -174,6 +175,12 @@ body {
 	transition: .3s;
 	box-shadow: 2px 2px 2px #CCC;
 	position: relative;
+	display: flex; 
+	flex-direction: column; 
+	align-items: center;
+	margin-bottom: 10px;
+	font-size: 16px; 
+	box-shadow: 4px 4px 4px #CCC;
 }
 
 .contenidoPrincipal-cursos-link a {
@@ -186,10 +193,9 @@ body {
 	position: absolute;
 	top: 0;
 	left: 0;
-}
-
-.contenidoPrincipal-cursos-link:hover {
-	box-shadow: 4px 4px 4px #CCC;
+	display: flex;
+    flex-direction: column; 
+	align-items: center;
 }
 
 .contenidoPrincipal-cursos-link a:before {
@@ -200,13 +206,7 @@ body {
 	margin: 10px auto;
 }
 
-.contenidoPrincipal-cursos-link:nth-child(even) a:before {
-	background: url(../img/background1.svg) no-repeat;	
-}
 
-.contenidoPrincipal-cursos-link:nth-child(odd) a:before {
-	background: url(../img/background2.svg) no-repeat;
-}
 
 /*Seccion Footer o pie de pagina*/
 .rodapePrincipal {
@@ -245,7 +245,7 @@ body {
 .navmap-list-title-framework { color: #AD85BF; border-left: 4px solid #AD85BF; }
 .navmap-list-title-frontend { color: #5EC6F3; border-left: 4px solid #5EC6F3; }
 .navmap-list-title-herramientas { color: #25D285; border-left: 4px solid #25D285; }
-
+/* Seccion Redes Sociales*/
 .rodapePrincipal-redSocial {
 	margin-top: 30px;
 	background: #F2F5F7;
@@ -265,7 +265,7 @@ body {
 	margin-right: 3rem; 
   }
   
-
+/* Seccion Videos*/
 .videoSobre {
 	background-color: #5E9EDC;
 	padding: 25px 0;
