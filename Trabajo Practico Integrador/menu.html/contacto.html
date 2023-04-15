@@ -16,36 +16,37 @@
         <header class="headerPrincipal">
             <div class="container">        
                 <h1 class="headerPrincipal-titulo">
-                    <a href="#">ProAr</a>	
+                    <img src="../imagenes/favicon-32x32.png" alt="logo de ProAr">
+                    <a href="#nosotros">ProAr</a>	
                 </h1>
                 <nav class="headerPrincipal-nav">
-                <a class="headerPrincipal-nav-link" href="index.html">Home</a>
-				<a class="headerPrincipal-nav-link" href="Cursos.html">Cursos</a>
-				<a class="headerPrincipal-nav-link" href="index.html">Que es ProAr</a>
-				<a class="headerPrincipal-nav-link" href="Herramientas.html">Herramientas</a>
+                <a class="headerPrincipal-nav-link" id="home" href="index.html">Home</a>
+				<a class="headerPrincipal-nav-link" href="cursos.html" >Cursos</a>
+				<a class="headerPrincipal-nav-link" onclick="window.location.href = 'index.html#nosotros';" >Que es ProAr</a>
+				<a class="headerPrincipal-nav-link"  onclick="window.location.href = 'index.html#container_cars';" >Tutores</a>
                 </nav>
             </div>
         </header>
         <main>
-           <form class="form-contact">
+           <form class="form-contact" id="myForm">
+              <div class="campo">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" class="input-padron" required>
+            </div>
             <div class="campo">
-            <label for="nombreapellido">Nombre y Apellido</label>
-            <input type="text" id="nombreapellido" class="input-padron" required>
+                <label for="correoelectronico">Correo Electrónico</label>
+                <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
            </div>
            <div class="campo">
-            <label for="correoelectronico">Correo Electrónico</label>
-            <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" class="input-padron" required placeholder="(351)331 0815">
            </div>
            <div class="campo">
-            <label for="telefono">Teléfono</label>
-            <input type="tel" id="telefono" class="input-padron" required placeholder="(351)331 0815">
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
            </div>
            <div class="campo">
-            <label for="mensaje">Mensaje</label>
-            <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
-           </div>
-           <div class="campo">
-            <fieldset>
+              <fieldset>
                     <legend>¿Cómo le gustaría que lo contactemos?</legend>
 
                     <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
@@ -54,15 +55,15 @@
                    
                     <label for="radio-whatsapp"><input type="radio"  name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
 
-            </fieldset>
+              </fieldset>
            </div>
            <div class="campo">
             <fieldset>
                 <legend>¿En que horario desea ser atendido?</legend>
 
                 <select>
-                     <option value="">Mañana</option>
-                     <option value="">Tarde</option>
+                     <option value="" id="manana">Mañana</option>
+                     <option value="" id="tarde">Tarde</option>
                 </select>
             </fieldset>
            </div>
@@ -71,7 +72,7 @@
            </div>
             <input type="submit" value="Enviar formulario" class="enviar">
 
-           </form>
+        </form>
            
            <table>
                <thead>
@@ -100,11 +101,20 @@
                     
                </tbody>          
            </table>
+           <section class="result">
+            <textarea name="mensaje" id="resultTextArea"
+            placeholder="¡Usted a enviado lo siguiente!" 
+            class="text-result"></textarea>
         </main>
         <!--hay que centrar el footer en el medio de la página cuidando no romper lo demás footer-->
         <footer>
-            <img src="../imagenes/favicon-32x32.png" alt="logo de ProAr">
-            <p class="copyright">&copy Copyright ProAr - 2023</p>
+            <div class="copyright">
+                <img src="../imagenes/favicon-32x32.png" alt="Logo de ProAr">
+                <p>&copy Copyright ProAr - 2023</p>
+            </div>
           </footer>
+          <script src="../js/index.js"></script>
+          <script src="../js/contacto.js"></script>
+          <script src="../menu.js/index.js"></script>
         </body>
     </html>

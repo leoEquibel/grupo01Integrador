@@ -15,42 +15,79 @@
 <header class="headerPrincipal">
     <div class="container">        
         <h1 class="headerPrincipal-titulo">
-            <a href="#">ProAr</a>	
+            <img src="../imagenes/favicon-32x32.png" alt="logo de ProAr">
+            <a href="#nosotros">ProAr</a>	
         </h1>
+    
         <figure>
             <img src="../imagenes/679648ce17eb66f45a5b9655e7f74ee2.jpg" width="100" alt="imagen de zamba pakapaka">
-            <figcaption>zamba y niña</figcaption>
         </figure>
         <nav class="headerPrincipal-nav">
-            <a class="headerPrincipal-nav-link" href="index.html">Home</a>
-            <a class="headerPrincipal-nav-link" href="index.html">Que es ProAr</a>
-            <a class="headerPrincipal-nav-link" href="index.html">Herramientas</a>
+            <a class="headerPrincipal-nav-link" id= "home"  href="index.html">Home</a>
+            <a class="headerPrincipal-nav-link" onclick="window.location.href = 'index.html#nosotros';" >Que es ProAr</a>
+            <a class="headerPrincipal-nav-link" onclick="window.location.href = 'cursos.html#nnuestroscursos';" >Nuestros Cursos</a>
             <a class="headerPrincipal-nav-link" href="Contacto.html">Contacto</a>
-        </nav>
+        </nav> 
     </div>
 </header>
 <img class="banner" src="../imagenes/03092020024131.jpg" alt="imagenes de niños en clase de programacion">
         <main class="contenidoPrincipal">
-            <div class="container">
+            <div id= "nnuestroscursos" class="container">
                 <h2 class="subtitulo">Nuestros cursos</h2>
             </div>
             <!--hay que agregar las imagenes de los archivos a cada curso-->
             <div>
                 <nav>
                     <ul class="contenidoPrincipal-cursos">
-                        <li class="contenidoPrincipal-cursos-link"><a href="https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">Flexbox</a></li>
-                        <li class="contenidoPrincipal-cursos-link"><a href="https://www.figma.com/">Figma</a></li>
-                        <li class="contenidoPrincipal-cursos-link"><a href="https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps">Javascript</a></li>
-                        <li class="contenidoPrincipal-cursos-link"><a href="https://www.w3schools.com/css/">CSS</a></li>
-                        <li class="contenidoPrincipal-cursos-link"><a href="https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F">Git</a></li>
-                        <li class="contenidoPrincipal-cursos-link"><a href="https://getbootstrap.com/">Boostrap</a></li>
+                        <li class="contenidoPrincipal-cursos-link">
+                            <a href="https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">
+                                <img src="../imagenes/flexbox-thumb.png" alt="Flexbox" width="100">
+                                 <span>Flexbox</span>
+                            </a>
+                        </li>
+                        <li class="contenidoPrincipal-herramientas-link">
+                            <a href="https://www.figma.com/">
+                                <img src="../imagenes/881b06d143b5be5861fdbb1e214d2f0afigma.png" alt="Figma"  width="60">
+                                  <span>Figma</span>
+                            </a>
+                        </li>
+                        <li class="contenidoPrincipal-cursos-link">
+                            <a href="https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps">
+                                <img src="../imagenes/Kaffeine-la-depuración-mediante-el-lenguaje-de-programación-JavaScript-1-1024x594.png" alt="Javascript" width="100">
+                                <span>JavaScript</span>
+                            </a>
+                        </li>
+                        <li class="contenidoPrincipal-cursos-link">
+                            <a href="https://www.w3schools.com/css/">
+                                <img src="../imagenes/CSS3.jpg" alt="CSS" width="60">
+                                 <span>CSS</span>
+                            </a>
+                        </li>
+                        <li class="contenidoPrincipal-cursos-link">
+                            <a href="https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F">
+                            <img src="../imagenes/maxresdefault (1).jpg" alt="Git" width="100">
+                                <span>Git y GitHub</span>    
+                            </a>
+                        </li>
+                        <li class="contenidoPrincipal-cursos-link">
+                            <a href="https://getbootstrap.com/">
+                                <img src="../imagenes/bootstrap1.jpg" alt="Boostrap" width="90">
+                                <span>Boostrap</span>
+                            </a>
+                        </li>
+                        <li class="contenidoPrincipal-cursos-link">
+                            <a href="https://developer.mozilla.org/es/docs/Web/HTML">
+                                <img src="../imagenes/maxresdefault.jpg" alt="Html" width="100">
+                                <span>HTML</span>
+                            </a>
+                        </li>
                     </ul>
                 </nav>
             </div>
             <!--Pao te animás a colocar el enlace al video acá-->
             <section class="videoSobre">
                 <div class="container">
-                    <iframe class="videoSobre-video" width="560" height="315" src="https://www.youtube.com/embed/bIlOsJzBVaY?list=PLh2Y_pKOa4UcF1BYPJR3EIMRi3nWAUxIp" frameborder="0" allowfullscreen></iframe>
+                    <iframe class="videoSobre-video" width="560" height="315" src="https://www.youtube.com/embed/4Apic4ifC1U" title="Lenguajes de Programación para Niños | ¿Con cuál Empezar?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></iframe>
                     
                     <div class="videoSobre-sobre">
                         <h2 class="videoSobre-sobre-title">Ventajas de ProAr</h2>
@@ -70,19 +107,38 @@
                     </div>
                 </div>
             </section>
-            <section class="rodapePrincipal-patrocinadores">
-                <div class="container">
-                    <ul class="rodapePrincipal-patrocinadores-list">
+        </main>
+        <footer>
+            <section class="rodapePrincipal-redSocial">
+                <div>
+                    <ul class="rodapePrincipal-redSocial-list">
                         <li>
-                            <a class="rodapePrincipal-patrocinadores-list-link patrocinadores-list-link" href="#">
-                                <img src="../imagenes/favicon-32x32.png" alt="Logo de ProAr">
-                                <p class="copyright">&copy Copyright ProAr - 2023</p>
-                            </a>
+                            <a class="rodapePrincipal-redSocial-list-link-instagram" href="https://www.instagram.com">
+                                <img src="../imagenes/instagram-logo-1155105798346ilx9kcc6.png" width="40" alt="Logo de instagram">
+                            </un>							
+                        </li>
+                        <li>
+                            <a class="rodapePrincipal-redSocial-list-link-linkedin" href="https://www.linkedin.com/">
+                                <img src="../imagenes/97-971470_linkedin-linkedin-social-media-icons-clipart.png" width="40" alt="Logo de linkedin">
+                                
+                            </un>							
+                        </li>
+                        <li>
+                            <a class="rodapePrincipal-redSocial-list-link-facebook" href="https://www.facebook.com/">	
+                                <img src="../imagenes/facebook-hd-png-free-illustration-icons-symbols-facebook-button-free-image-on-pixabay-842893-640.png" width="40" alt="Logo de facebook">
+                            </un>							
                         </li>
                     </ul>
+                    <div class="copyright">
+                        <img src="../imagenes/favicon-32x32.png" alt="Logo de ProAr">
+                        <p>&copy Copyright ProAr - 2023</p>
+                    </div>
+                        
                 </div>
             </section>
         </footer>
-    
+    <script src="../js/index.js"></script>
+    <script src="../js/contacto.js"></script>
+    <script src="../menu.js/index.js"></script>
     </body>
     </html>
